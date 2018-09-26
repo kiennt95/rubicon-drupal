@@ -1,8 +1,74 @@
 // Default variables.
 @import "default-variables";
-
 // Bootstrap Framework.
 @import '../bootstrap/assets/stylesheets/bootstrap';
-
 // Base-theme overrides.
 @import 'overrides';
+
+//Navigation
+.region-navigation {
+  position: relative;
+
+  #block-rubicon-account-menu {
+    position: absolute;
+    top: 5px;
+    right: 17px;
+
+    .navbar-right {
+      margin: 0;
+    }
+  }
+
+  #block-rubicon-main-menu {
+    position: absolute;
+    top: 5px;
+    left: 17px;
+  }
+
+  .navbar-nav.menu li a {
+    color: #fff;
+    padding: 10px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    text-shadow: 0 1px 2px #000;
+    -webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;
+    -webkit-transition: background-color 0.5s ease;-moz-transition: background-color 0.5s ease;-ms-transition: background-color 0.5s ease;-o-transition: background-color 0.5s ease;transition: background-color 0.5s ease;
+  }
+
+  .navbar-nav.menu li a:hover {
+    //border-bottom: 2px solid #fff;
+    background-color: rgba(0, 0, 0, 0.41);
+  }
+
+  #block-rubicon-search {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    max-width: 500px;
+    margin-left: -250px;
+
+    #search-block-form {
+      input.form-control {
+        height: 46px;
+        font-size: 16px;
+        padding-left: 20px;
+        border: none;
+      }
+
+      button.btn {
+        padding: 9px 26px;
+        font-size: 20px;
+        background-color: #06682a;
+        border: none;
+        -webkit-transition: background-color 0.5s ease;-moz-transition: background-color 0.5s ease;-ms-transition: background-color 0.5s ease;-o-transition: background-color 0.5s ease;transition: background-color 0.5s ease;
+      }
+
+      button.btn:hover {
+        background-color: #06b03e;
+        //border: 1px solid #06b03e;
+      }
+    }
+  }
+}
+
+

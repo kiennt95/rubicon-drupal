@@ -9,16 +9,14 @@ package: 'Bootstrap'
 regions:
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
-  header: 'Top Bar'
   highlighted: 'Highlighted'
-  help: 'Help'
   content: 'Content'
-  sidebar_first: 'Primary'
-  sidebar_second: 'Secondary'
+  sidebar_first: 'Sidebar First'
+  sidebar_second: 'Sidebar Second'
   footer: 'Footer'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
 
 libraries-extend:
   bootstrap/framework:
-    - rubicon/framework
+    - 'rubicon/framework'
