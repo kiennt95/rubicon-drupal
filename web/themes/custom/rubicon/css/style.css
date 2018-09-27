@@ -6422,10 +6422,9 @@ p:last-child,
     background-color: rgba(0, 0, 0, 0.41); }
   .region-navigation #block-rubicon-search {
     position: absolute;
-    top: 200px;
-    left: 50%;
-    max-width: 500px;
-    margin-left: -250px; }
+    top: calc(50% - 23px);
+    left: calc(50% - 250px);
+    width: 500px; }
     .region-navigation #block-rubicon-search #search-block-form input.form-control {
       height: 46px;
       font-size: 16px;
@@ -6442,4 +6441,62 @@ p:last-child,
       -o-transition: background-color 0.5s ease;
       transition: background-color 0.5s ease; }
     .region-navigation #block-rubicon-search #search-block-form button.btn:hover {
-      background-color: #06b03e; }
+      background-color: #068f36; }
+
+.footer {
+  background: #333;
+  padding: 20px;
+  font-size: 14px;
+  color: #888; }
+  .footer hr {
+    background: #666;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1); }
+  .footer a {
+    color: #b8b8b8;
+    text-decoration: none; }
+  .footer a:hover {
+    color: #fff; }
+  .footer h5 {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300; }
+  .footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .footer ul li {
+      padding: 3px 0; }
+      .footer ul li a {
+        color: #888;
+        text-decoration: none; }
+      .footer ul li a:hover {
+        color: #fff; }
+  .footer .socials {
+    display: flex;
+    justify-content: space-around; }
+    .footer .socials a {
+      color: #b8b8b8;
+      font-size: 25px; }
+    .footer .socials a:hover {
+      color: #fff; }
+  .footer .box-subcribe {
+    color: #eee;
+    display: flex;
+    justify-content: flex-end; }
+    .footer .box-subcribe .input-group {
+      display: flex; }
+      .footer .box-subcribe .input-group .input-group-append {
+        margin-left: -1px; }
+    .footer .box-subcribe .text-subcribe {
+      padding: 10px 15px 0 0;
+      color: #888; }
+    .footer .box-subcribe form {
+      float: right;
+      width: 350px; }
+  .footer .info-rubicontour strong {
+    color: #eee;
+    font-weight: 300;
+    display: block; }

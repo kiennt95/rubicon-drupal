@@ -24,6 +24,7 @@
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.6.0",
         "drupal/diba_carousel": "^1.9",
+        "drupal/fontawesome": "^2.6",
         "drupal/module_filter": "^3.1",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",

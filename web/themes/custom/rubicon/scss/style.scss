@@ -42,10 +42,9 @@
 
   #block-rubicon-search {
     position: absolute;
-    top: 200px;
-    left: 50%;
-    max-width: 500px;
-    margin-left: -250px;
+    top: calc(50% - 23px);
+    left: calc(50% - 250px);
+    width: 500px;
 
     #search-block-form {
       input.form-control {
@@ -64,11 +63,102 @@
       }
 
       button.btn:hover {
-        background-color: #06b03e;
-        //border: 1px solid #06b03e;
+        background-color: #068f36;
       }
     }
   }
 }
 
+//Footer
+.footer {
+  background: #333;
+  padding: 20px;
+  font-size: 14px;
+  color: #888;
 
+  hr {
+    background: #666;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+  }
+
+  a {
+    color: #b8b8b8;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #fff;
+  }
+
+  h5 {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      padding: 3px 0;
+
+      a {
+        color: #888;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  .socials {
+    display: flex;
+    justify-content: space-around;
+
+    a {
+      color: #b8b8b8;
+      font-size: 25px;
+    }
+
+    a:hover {
+      color: #fff;
+    }
+  }
+
+  .box-subcribe {
+    color: #eee;
+    display: flex;
+    justify-content: flex-end;
+
+    .input-group {
+      display: flex;
+
+      .input-group-append {
+        margin-left: -1px;
+      }
+    }
+
+    .text-subcribe {
+      padding: 10px 15px 0 0;
+      color: #888;
+    }
+
+    form {
+      float: right;
+      width: 350px;
+    }
+  }
+
+  .info-rubicontour strong {
+    color: #eee;
+    font-weight: 300;
+    display: block;
+  }
+}
