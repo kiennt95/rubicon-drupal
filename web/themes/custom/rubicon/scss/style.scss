@@ -68,7 +68,6 @@
     }
   }
 }
-
 //Footer
 .footer {
   background: #333;
@@ -81,7 +80,7 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
     border: 0;
-    border-top: 1px solid rgba(0,0,0,.1);
+    border-top: 1px solid rgba(0, 0, 0, .1);
   }
 
   a {
@@ -161,4 +160,26 @@
     font-weight: 300;
     display: block;
   }
+}
+
+//Login page
+.login-main-background {
+  background: url(../../rubicon/images/login-page-background.gif) no-repeat center center;
+  -webkit-background-size: cover;background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: -99;
+}
+
+.login-main-content {
+  background: #fff;
+  opacity: 0.6;
+  height: 300px;
+  width: 500px;
+  position: absolute;
 }
