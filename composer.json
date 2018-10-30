@@ -20,6 +20,8 @@
         "cweagans/composer-patches": "^1.6.5",
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/adminimal_admin_toolbar": "^1.8",
+        "drupal/better_login_form_config": "^1.1",
+        "drupal/betterlogin": "^1.2",
         "drupal/bootstrap": "^3.13",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.6.0",

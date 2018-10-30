@@ -1,9 +1,14 @@
 <div class="login-main-container">
-  <div class="login-main-background"></div>
+  <div class="login-main-mask"></div>
   <div class="login-main-content">
     {% block content %}
       {{ page.content }}
     {% endblock %}
+    <div class="login-links text-center">
+      <span><a href="{{ path('user.register') }}">{{ 'Register a new account'|t }}</a></span>
+      <span>|</span>
+      <span><a href="{{ path('user.pass') }}">{{ 'Forgot your password?'|t }}</a></span>
+    </div>
   </div>
 </div>
 

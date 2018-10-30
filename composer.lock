@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "785d4784e34db40dd853f72b4e7091a1",
+    "content-hash": "ba879b368c9dba4a2f1baff5e6817905",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1837,6 +1837,104 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/adminimal_admin_toolbar",
                 "issues": "https://www.drupal.org/project/issues/adminimal_admin_toolbar"
+            }
+        },
+        {
+            "name": "drupal/better_login_form_config",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/better_login_form_config",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/better_login_form_config-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "b4c978309b7898ecf0dd6c27b48d0ad69259e245"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1531556021",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ashutosh.mishra",
+                    "homepage": "https://www.drupal.org/user/3565900"
+                }
+            ],
+            "description": "you can configure the label, description and login button of the default user login form ",
+            "homepage": "https://www.drupal.org/project/better_login_form_config",
+            "support": {
+                "source": "http://cgit.drupalcode.org/better_login_form_config"
+            }
+        },
+        {
+            "name": "drupal/betterlogin",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/betterlogin",
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/betterlogin-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "6b9ab142bf563685346d2b4e2db46ada209ed6ad"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.2",
+                    "datestamp": "1515587585",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Yogesh Pawar",
+                    "homepage": "https://www.drupal.org/user/2922907"
+                },
+                {
+                    "name": "theamoeba",
+                    "homepage": "https://www.drupal.org/user/251700"
+                }
+            ],
+            "description": "Make the login screens better :)",
+            "homepage": "https://www.drupal.org/project/betterlogin",
+            "support": {
+                "source": "http://cgit.drupalcode.org/betterlogin"
             }
         },
         {

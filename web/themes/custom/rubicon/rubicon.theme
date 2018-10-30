@@ -6,3 +6,12 @@
  *
  * Place your custom PHP code in this file.
  */
+
+/*
+ * Login form
+ */
+function rubicon_form_user_login_form_alter(&$form, $form_state, $form_id) {
+//  dump($form);
+//  die('aa');
+//  $form['#attributes']['class'][] = 'form-inline';
+}

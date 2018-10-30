@@ -163,23 +163,134 @@
 }
 
 //Login page
-.login-main-background {
-  background: url(../../rubicon/images/login-page-background.gif) no-repeat center center;
-  -webkit-background-size: cover;background-size: cover;
+.login-main-container {
+  //background: url(../../rubicon/images/login-background.jpg) no-repeat center center;
+  //-webkit-background-size: cover;background-size: cover;
+  position: relative;
   height: 100vh;
-  width: 100vw;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-  left: 0;
-  position: fixed;
-  right: 0;
-  z-index: -99;
-}
+  overflow: hidden;
+  //  top: 0;
+  //  bottom: 0;
+  //  left: 0;
+  //  right: 0;
 
-.login-main-content {
-  background: #fff;
-  opacity: 0.6;
-  height: 300px;
-  width: 500px;
-  position: absolute;
+  //
+  //.login-main-mask {
+  //  //background: url(../../rubicon/images/login-page-background.gif) no-repeat center center;
+  //  //-webkit-background-size: cover;background-size: cover;
+  //  //height: 110vh;
+  //  //width: 110vw;
+  //  background-color: #fff;
+  //  filter: blur(5px);
+  //  -webkit-filter: blur(5px);
+  //  position: fixed;
+  //  top: 0;
+  //  bottom: 0;
+  //  left: 0;
+  //  right: 0;
+  //  opacity: 0.5;
+  //  //z-index: 99;
+  //}
+
+  .login-main-mask {
+    background: url(../../rubicon/images/login-background.jpg) no-repeat center center;
+    -webkit-background-size: cover;background-size: cover;
+    filter: blur(5px);
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+  }
+
+  .login-main-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 7px;
+    width: 400px;
+    position: absolute;
+    top: calc(50% - 150px);
+    left: calc(50% - 200px);
+    padding: 30px 0;
+
+    nav.tabs {
+      display: none;
+    }
+
+    h1.page-header {
+      //text-align: center;
+      //color: #fff;
+      //text-transform: uppercase;
+      display: none;
+    }
+
+    #user-login-form {
+      .form-item {
+        margin: 10px 0;
+        padding: 0 60px;
+        display: block;
+
+
+        label {
+          color: #fff;
+          font-weight: 400;
+          padding-left: 10px;
+          text-align: left;
+        }
+
+        label.form-required:after {
+          display: none;
+        }
+        
+        input {
+          -webkit-border-radius: 16px;-moz-border-radius: 16px;border-radius: 16px;
+          background-color: rgba(255, 255, 255, 0.3);
+          border: none;
+          color: #fff;
+        }
+
+        input:focus {
+          -webkit-box-shadow: none;
+          -moz-box-shadow: none;
+          box-shadow: none;
+        }
+      }
+
+      button {
+        display: block;
+        -webkit-border-radius: 17px;
+        -moz-border-radius: 17px;
+        border-radius: 23px;
+        background-color: #065724;
+        border: none;
+        outline: none;
+        margin: 25px auto 0 auto;
+        padding: 12px 20px;
+        -webkit-transition: background-color 0.5s ease;-moz-transition: background-color 0.5s ease;-ms-transition: background-color 0.5s ease;-o-transition: background-color 0.5s ease;transition: background-color 0.5s ease;
+
+        span {
+          display: none;
+        }
+      }
+
+      button:hover {
+        background-color: #06772c;
+      }
+
+    }
+
+    .login-links {
+      color: #a2a2a2;
+      margin-top: 30px;
+
+      a {
+        color: #a2a2a2;
+        text-decoration: none;
+        -webkit-transition: color 0.5s ease;-moz-transition: color 0.5s ease;-ms-transition: color 0.5s ease;-o-transition: color 0.5s ease;transition: color 0.5s ease;
+      }
+
+      a:hover {
+        color: #fff;
+      }
+    }
+  }
 }
